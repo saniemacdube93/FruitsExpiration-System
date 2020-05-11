@@ -21,7 +21,7 @@ import nust.systems.workingcrud.emails.EmailSender;
  * @author NoNO
  */
 public class Email {
-    
+    //ola
     static Properties mailServerProperties;
     static Session getMailSession;
     static MimeMessage generateMailMessage;
@@ -107,7 +107,7 @@ public class Email {
             transport = getMailSession.getTransport("smtp");
             // Enter your correct gmail UserID and Password
             // if you have 2FA enabled then provide App Specific Password
-           transport.connect("smtp.gmail.com", "freshsuppliess@gmail.com", "January2019January2019");//relay.nust.ac.zw
+           transport.connect("smtp.gmail.com", "freshsuppliess@gmail.com", "January2019January2019");
 
 
             System.out.println(":Transport connection established****************Attempting to send email*******");
